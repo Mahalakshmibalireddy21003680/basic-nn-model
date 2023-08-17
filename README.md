@@ -10,7 +10,9 @@ Explain the problem statement
 
 ## Neural Network Model
 
-<img width="544" alt="DL Output" src="https://github.com/Pavan-Gv/basic-nn-model/assets/94827772/a7e7085f-698d-45dd-b342-b7f3775b9a2e">
+<img width="543" alt="Screenshot 2023-08-18 002357" src="https://github.com/Mahalakshmibalireddy21003680/basic-nn-model/assets/93427286/0ebaa9d1-fd79-458e-8753-301af633b539">
+
+
 
 ## DESIGN STEPS
 
@@ -60,7 +62,7 @@ Scaler.fit(x_train)
 x_train_scale = Scaler.transform(x_train)
 my_brain = Sequential([
     Dense(units = 4, activation = 'relu' , input_shape=[1]),
-    Dense(units = 6),
+    Dense(units = 5),
     Dense(units = 1)
 
 ])
@@ -76,22 +78,22 @@ my_brain.predict(input_scaled)
 ```
 ## Dataset Information
 
-<img width="138" alt="image" src="https://github.com/Pavan-Gv/basic-nn-model/assets/94827772/21d61956-2559-465a-8c8b-ac0f1d11e652">
 
 ## OUTPUT:
 
 ### Training Loss Vs Iteration Plot
 
-<img width="327" alt="image" src="https://github.com/Pavan-Gv/basic-nn-model/assets/94827772/d2cf233c-906c-4cd3-a0bf-0b6569a3898d">
+<img width="430" alt="Screenshot 2023-08-18 002534" src="https://github.com/Mahalakshmibalireddy21003680/basic-nn-model/assets/93427286/148d114f-43bb-4887-8b29-fc1ca67a565e">
+
 
 ### Test Data Root Mean Squared Error
 
-<img width="326" alt="image" src="https://github.com/Pavan-Gv/basic-nn-model/assets/94827772/1b1d5640-5dc8-4c5a-b378-19888609f810">
+<img width="433" alt="Screenshot 2023-08-18 002656" src="https://github.com/Mahalakshmibalireddy21003680/basic-nn-model/assets/93427286/19055b12-c2c7-40a2-978b-28c0c04ee327">
 
 
 ### New Sample Data Prediction
 
-<img width="233" alt="image" src="https://github.com/Pavan-Gv/basic-nn-model/assets/94827772/7e72c01d-7ba7-4b2d-b4f4-8409f115b730">
+<img width="325" alt="Screenshot 2023-08-18 002720" src="https://github.com/Mahalakshmibalireddy21003680/basic-nn-model/assets/93427286/d7c95aa0-b84a-4e6f-9b9d-9fe583b62fdc">
 
 ## RESULT:
 Therefore We successfully developed a neural network regression model for the given dataset.
